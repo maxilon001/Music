@@ -1,0 +1,3 @@
+echo "Compressing node_modules..."
+sudo tar cf node_modules.tar.xz --use-compress-program='xz -9' ./nod*s
+echo "Compression Completed!."
